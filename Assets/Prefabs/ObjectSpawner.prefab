@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7542181526179033344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7542181526179033351}
+  - component: {fileID: 7542181526179033350}
+  m_Layer: 0
+  m_Name: ObjectSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7542181526179033351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7542181526179033344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 70}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7542181526179033350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7542181526179033344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 950f0137d23817d4aa982c127610fcf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstackle: {fileID: 1021306230501808250, guid: 26c7ba247c5128b4fb7387b160a3e08a,
+    type: 3}
+  star: {fileID: 6756084747537641487, guid: c1fd542024756a3488334edf3ee4a977, type: 3}
+  coin: {fileID: 8538044314661512216, guid: 8d9535932467b0e4bb826668000fab2c, type: 3}
+  pointBooster: {fileID: 552536935213711295, guid: f4ffb034f6d069b4a9a7446c5b4a8353,
+    type: 3}
+  makeBigger: {fileID: 2055099103412385985, guid: 20911b65036af474f8ec02cf5d89df34,
+    type: 3}
+  makeSmaller: {fileID: 7878421196757046720, guid: 78775566e25d53843880b791a8690355,
+    type: 3}
+  increaseBouncy: {fileID: 2055099103412385985, guid: c24c4f9ce22a0ef4191256a08ce9476a,
+    type: 3}
+  decreaseBouncy: {fileID: 2055099103412385985, guid: 69441ceb4cd4c6e43841f2f2c2860573,
+    type: 3}
+  spawnPointsCollectables:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  spawnPointsObstackles:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 950f0137d23817d4aa982c127610fcf0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - obstackle: {instanceID: 0}
+  - star: {instanceID: 0}
+  - coin: {instanceID: 0}
+  - pointBooster: {instanceID: 0}
+  - makeBigger: {instanceID: 0}
+  - makeSmaller: {instanceID: 0}
+  - increaseBouncy: {instanceID: 0}
+  - decreaseBouncy: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
